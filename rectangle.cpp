@@ -22,6 +22,7 @@ bool Rectangle::setWidth(double w)
         width = w;
     else 
         validData = false; 
+    return validData;
 }
 
 double Rectangle::getLength()
