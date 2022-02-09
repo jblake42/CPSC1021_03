@@ -1,5 +1,5 @@
 // a = s^2
-#include "square.h"
+#include "Square.h"
 
 bool Square::setLength(double len)
 {

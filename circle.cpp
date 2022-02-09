@@ -1,4 +1,4 @@
-#include "circle.h"
+#include "Circle.h"
 
 
 bool Circle::setRadius(double rad)

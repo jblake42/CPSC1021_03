@@ -1,5 +1,5 @@
 // a = h * w
-#include "rectangle.h"
+#include "Rectangle.h"
 
 bool Rectangle::setLength(double len)
 {
