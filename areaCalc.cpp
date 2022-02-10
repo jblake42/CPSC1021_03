@@ -81,12 +81,12 @@ do
         cout << "enter rectangle width: ";
         cin >> w;
 
-        if(!rec.setLength(1))
+        if(!rec.setLength(l))
         {
             cout << "Invalid length entered" << endl;
         }
 
-        else if(!rec.setWidth(1)) 
+        else if(!rec.setWidth(w)) 
         {
             cout <<"invalid width entered" << endl;
         }

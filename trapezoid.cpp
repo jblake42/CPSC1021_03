@@ -17,7 +17,7 @@ bool Trapezoid::setBaseB(double b)
 {
     bool validData = true; 
 
-    if(a >= 0)
+    if(b >= 0)
         baseB = b;
     else
         validData = false;
@@ -29,7 +29,7 @@ bool Trapezoid::setHeigth(double h)
 {
     bool validData = true; 
 
-    if(a >= 0)
+    if(h >= 0)
         heigth = h;
     else
         validData = false;
