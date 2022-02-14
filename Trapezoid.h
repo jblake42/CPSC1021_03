@@ -6,6 +6,11 @@ class Trapezoid
         private:
             double baseA, baseB, heigth ;
         public:
+            Trapezoid(){
+                baseA = 1.0;
+                baseB = 1.0;
+                heigth = 1.0;
+            }
             bool setBaseA(double);
             bool setBaseB(double);
             bool setHeigth(double);
